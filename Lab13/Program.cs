@@ -78,7 +78,7 @@ namespace Lab13
 
             }
         }
-        class Multibuilding : Building
+        sealed class Multibuilding : Building
         {
             int _floors;
             public int floors
